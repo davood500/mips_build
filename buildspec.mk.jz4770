@@ -1,0 +1,5 @@
+TARGET_ARCH := mips
+TARGET_ARCH_VARIANT := mips32r2-fp
+TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
+BOARD_UMS_LUNFILE := "/sys/devices/platform/musb-jz47xx.0/musb-hdrc/gadget/lun0/file"
+WITH_JIT := false
